@@ -11,5 +11,6 @@ float32 ambient_temperature		# Abient temperature in degrees Celsius
 uint8 temperature_source		# Source of temperature data: 0: Default Temperature (15°C), 1: External Baro, 2: Airspeed
 
 float32 rho				# air density
+float32 eas2tas         # equivalent airspeed to true airspeed conversion factor
 
 uint8 calibration_count     # Calibration changed counter. Monotonically increases whenever calibration changes.
